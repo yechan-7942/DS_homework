@@ -12,7 +12,7 @@ int cal(int n){
 
 int main(){
     int n;
-    cout << "수를 입력하시오";
+    cout << "수를 입력하시오 : ";
    cin >> n;
 
    cout << n << "번째 피보나치 수열" << cal(n);
